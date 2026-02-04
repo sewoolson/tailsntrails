@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+   <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+</style>
+</head>
+
+<body>
+<header>
+   <div class="nav-container">
+    <div class="logo">
+<a href="/">
+  <img src="assets/logo.svg" alt="Home Logo" class="logo">
+</div>
+<div class="navlink">
+</a>
+<ul>
+<li><a href="/searchwalkers">Search Walkers</a></li>
+<li><a href="/health&wellness">Health & Wellness</a></li>
+<li><a href="/safety&info">Safety & Info</a></li>
+<button class="primary">Become a Walker</button>
+</ul>
+</div>
+</div>
+</header>
+
+<main>
+<div class="hero-container">
+<a href="assets/Desktop-Landing.jpg" alt="hero-image" class="heroimg"></a>
+<div class="left">
+<div class="herotext">
+<h1>Find trustworthy pet walkers near you!</h1>
+<p>Discover trusted walkers in your area to keep your furry friend happy and healthy.</p>
+</div>
+<div class="input-bar">
+    <form action="/results" method="post">
+  <label for="dates">Select dates</label>
+  <input type="date" id="dates" name="dates" placeholder="Select dates">
+
+<label for="quantity">Add pets</label>
+<input type="number" id="quantity" name="quantity" min="0" value="1" max="5">
+
+  </select>
+
+  <button type="submit">Continue</button>
+</form>
+</div>
+</div>
+</main>
+
+<footer>
+    <div class="footer-container">
+    <h3>Find out why we're the best in the business!</h3>
+     <p class="footertext">25% off your first walk when you sign up today!</p>
+
+</div>
+</footer>
+ <script src="index.js"></script>
+</body>
+</html>

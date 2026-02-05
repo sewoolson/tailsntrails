@@ -34,8 +34,9 @@ The scope of this project was intentionally limited to a landing page intended a
 ## Links (coming soon)
 
 Live site: https://tailstrails.netlify.app/
-GitHub repo
+GitHub repo: https://github.com/sewoolson/tailsntrails
 Figma file
+
 
 
 

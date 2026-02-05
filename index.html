@@ -20,9 +20,9 @@
 <div class="navlink">
 </a>
 <ul>
-<li><a href="/searchwalkers">Search Walkers</a></li>
-<li><a href="/health&wellness">Health & Wellness</a></li>
-<li><a href="/safety&info">Safety & Info</a></li>
+<li><a href="/">Search Walkers</a></li>
+<li><a href="/">Health & Wellness</a></li>
+<li><a href="/">Safety & Info</a></li>
 <button class="primary">Become a Walker</button>
 </ul>
 </div>
@@ -37,12 +37,12 @@
 <h1>Find trustworthy pet walkers near you!</h1>
 <p>Discover trusted walkers in your area to keep your furry friend happy and healthy.</p>
 </div>
-<div class="input-bar">
-    <form action="/results" method="post">
-  <label for="dates">Select dates</label>
+<div class="search-bar">
+    <form action="/results" method="get">
+  <label for="dates"><div class="label">Select dates</div></label>
   <input type="date" id="dates" name="dates" placeholder="Select dates">
 
-<label for="quantity">Add pets</label>
+<label for="quantity"><div class="label">Add pets</div></label>
 <input type="number" id="quantity" name="quantity" min="0" value="1" max="5">
 
   </select>
@@ -60,6 +60,15 @@
 
 </div>
 </footer>
- <script src="index.js"></script>
+<div id="signup-modal" class="modal-backdrop" hidden>
+  <div class="modal">
+    <h2>Sign up</h2>
+    <p>Create an account to continue.</p>
+
+    <button id="close-modal">Close</button>
+  </div>
+</div>
+
+<script src="index.js"></script>
 </body>
 </html>

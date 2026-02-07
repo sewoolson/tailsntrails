@@ -1,5 +1,14 @@
 # Tails&Trails
 
+## Links
+
+[Live](https://tailstrails.netlify.app/)
+
+[Github](https://github.com/sewoolson/tailsntrails)
+
+[Figma](https://www.figma.com/proto/JP0lg0rpzogBP9lacf0pqz/Tails-Trails-Prototype?t=7wToa54G7QWg6UON-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&node-id=1-24&starting-point-node-id=1%3A24)
+
+
 ## Project overview
 Tails&Trails is a landing page designed for pet owners who need reliable, local pet walkers on specific dates. It’s aimed at owners who are busy, traveling, or otherwise unavailable for short or extended periods of time.
 
@@ -30,16 +39,6 @@ Future iterations could include subtle animations while maintaining performance,
 
 The scope of this project was intentionally limited to a landing page intended as a reusable template, so any future work would focus on incremental improvements rather than expanded features.
 
-
-## Links
-
-[Live](https://tailstrails.netlify.app/)
-
-
-[Github](https://github.com/sewoolson/tailsntrails)
-
-
-[Figma](https://www.figma.com/proto/JP0lg0rpzogBP9lacf0pqz/Tails-Trails-Prototype?t=7wToa54G7QWg6UON-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&node-id=1-24&starting-point-node-id=1%3A24)
 
 
 
